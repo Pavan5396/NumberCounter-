@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}
+
+h1 {
+    font-size: 75px;
+}
+
+
+.number {
+    font-size: 150px;
+    font-weight: 800;
+    margin: 50px;
+}
+
+.decrease,
+.increase,
+.reset {
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    border: 3px solid black;
+}
